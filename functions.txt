@@ -1,0 +1,38 @@
+//Loading the JSON Files
+def load_json(filename):
+
+//Groups operations that use the same resource together into a dict
+def group_by_resource(ops):
+
+//Creating a dict for the start times of the events
+"start_times[(train, operation)] = time"
+def load_solution_events(solution):
+
+//Objective Function
+Objective = minimize total delay of trains
+delay = actual_time - target_time
+delay = max(0, actual_time - target_time)
+
+Objective = Σ weight × max(0, finish_time - threshold)
+
+//Manual Check
+1. Time bounds check
+if s < op["start_lb"]:
+if s > op["start_ub"]
+
+//2. Precedence check
+if s_successor < end_current:
+
+//3. Resource conflict check
+if e1 > s2:
+
+//displib_verify
+1. Loads the problem file
+2. Loads the solution file
+3. Checks event order
+4. Checks train movement order(op1 -> op2)
+5. Checks minimum duration( time for next event to start)
+6. Checks start bounds
+7. Checks resource conflicts
+8. Checks all trains finish
+9. Computes objective value
